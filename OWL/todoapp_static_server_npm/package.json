@@ -1,0 +1,14 @@
+{
+    "name": "hello_owl",
+    "version": "0.1.0",
+    "description": "OWL Todo App",
+    "main": "src/index.html",
+    "scripts": {
+        "serve": "serve src"
+    },
+    "author": "John",
+    "license": "ISC",
+    "devDependencies": {
+        "serve": "^14.2.1"
+    }
+}
