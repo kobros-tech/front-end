@@ -1,0 +1,14 @@
+<div>
+    <!-- <h1>Name:</h1> -->
+
+    <h1 t-name="Task">
+        <t t-slot="default">Name:</t>
+    </h1>
+
+    <Task slots="{ number:123 }">
+        <h3>is</h3>
+        <t t-set-slot="naming">
+            <h4>Foo</h4>
+        </t>
+    </Task>
+</div>

@@ -1,0 +1,12 @@
+<div>
+    <h1>hello world</h1>
+    <div>
+        <input placeholder="Pass only argument" t-on-keyup="() => this.handleButton1(13)"/>
+    </div>
+    <div>
+        <input placeholder="Pass only event" t-on-keyup="handleButton2"/>
+    </div>
+    <div>
+        <input placeholder="Pass both argument and event" t-on-keyup="(ev) => this.handleButton3(ev, 13)"/>
+    </div>
+</div>

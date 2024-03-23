@@ -1,0 +1,4 @@
+<div>
+    hello world
+</div>
+<div t-portal="'#h1_id'">and this is outside</div>

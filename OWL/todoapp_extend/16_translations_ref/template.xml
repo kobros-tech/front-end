@@ -1,0 +1,26 @@
+<div>
+    <p>hello</p>
+    <p>yes</p>
+    <p>no</p>
+    <input placeholder="hello" other="yes"/>
+
+    <h1 t-name="Task">
+        <t t-slot="default">Name:</t>
+    </h1>
+
+    <Task slots="{ number:123 }">
+        <h3>is</h3>
+        <t t-set-slot="naming">
+            <h4>Foo</h4>
+        </t>
+    </Task>
+
+    <t t-esc="foo"/>
+
+    <t t-tag="tag">
+        <span>content</span>
+    </t>
+
+    <t t-set="bar" t-value="'bar'"/>
+    <t t-out="bar"/>
+</div>

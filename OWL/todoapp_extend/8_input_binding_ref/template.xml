@@ -1,0 +1,32 @@
+<div>
+    <div>Text in an input: <input t-model="state.someVal"/></div>
+    <span t-esc="state.someVal" />
+    
+    <div>Textarea: <textarea t-model.trim="state.otherVal"/></div>
+    <span t-esc="state.otherVal" />
+
+    <div>Boolean value: <input type="checkbox" t-model="state.someFlag"/></div>
+    <span t-esc="state.someFlag" />
+
+    <div>Selection:
+        <select t-model="state.color">
+            <option value="">Select a color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+        </select>
+    </div>
+    <span t-esc="state.color" />
+
+    <div>
+        Selection with radio buttons:
+        <span>
+            <input type="radio" name="drink" id="milk" value="milk" t-model="state.drink"/>
+            <label for="red">Milk</label>
+        </span>
+        <span>
+            <input type="radio" name="drink" id="tea" value="tea" t-model="state.drink" />
+            <label for="blue">Tea</label>
+        </span>
+    </div>
+    <span t-esc="state.drink" />
+</div>
