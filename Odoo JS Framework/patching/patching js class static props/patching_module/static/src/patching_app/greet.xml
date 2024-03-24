@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+    <t t-name="patching_module.Greet" owl="1">
+        <h2>Greeting to </h2>
+        <t t-esc="props.name"/>
+    </t>
+
+</templates>

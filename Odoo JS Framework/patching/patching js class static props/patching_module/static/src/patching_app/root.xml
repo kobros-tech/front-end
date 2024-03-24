@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+    <t t-name="patching_module.Root" owl="1">
+        <h1>Hello, OWL!</h1>
+
+        <Greet name="'Mohamed'" id="123"/>
+    </t>
+
+</templates>
