@@ -1,3 +1,14 @@
-<div>
-    hello world
-</div>
+
+<t t-name="1_app_ref.Root" owl="1">
+    <div>
+        hello world
+    </div>
+    <t t-call="{{ store['1_app_ref.Root_Inherited'] }}"/>
+    <t t-set="x" t-value="11"/>
+    <span>x</span> <t t-esc="x"/>
+
+    <xpath expr="//p" position="before">
+        <p>yes sure</p>
+    </xpath>
+</t>
+

@@ -1,0 +1,13 @@
+<templates xml:space="preserve">
+    <t t-inherit="{{ store['1_app_ref.Root'] }}" owl="1">
+        <xpath expr="//div" position="replace">
+            <div>Hello all world!</div>
+        </xpath>
+        
+        <xpath expr="//div" position="inside">
+            <p>yes of course</p>
+        </xpath>
+
+        <t t-call="{{ store['1_app_ref.Root'] }}"/>
+    </t>
+</templates>
